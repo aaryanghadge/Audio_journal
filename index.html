@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audio Journal: talk messy, read clean</title>
+<meta name="description" content="Voice journaling that cleans itself up. Ramble into your mic, get back a diary entry worth re-reading.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/landing.css">
+<script src="js/theme.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top">
+    <a class="brand" href="index.html"><i></i>Audio Journal</a>
+    <div class="right">
+      <button class="chip" id="theme" type="button">Dark mode</button>
+      <a class="chip" href="journal.html">Open journal</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Talk messy,<br>read clean.</h1>
+    <p class="lead">You think in fragments. Ramble into your mic and get back a tidy diary entry you'd actually want to re-read.</p>
+    <a class="cta" href="journal.html">Start journaling</a>
+    <p class="fine">No sign-up. Entries stay in your browser.</p>
+  </header>
+
+  <section class="demo" aria-label="Example">
+    <div>
+      <h2>You say</h2>
+      <p class="say">um so today i went to the lab and the the demo kinda broke before the review ... gonna fix it tonight and i wanna sleep early</p>
+    </div>
+    <div>
+      <h2>You get</h2>
+      <article class="note">
+        <header><p class="date">Friday, 2 October 2026</p><p class="time">9:41 PM</p></header>
+        <p class="t">So today I went to the lab and the demo kind of broke before the review.</p>
+        <p class="t">Going to fix it tonight and I want to sleep early.</p>
+        <footer>27 words</footer>
+      </article>
+    </div>
+  </section>
+
+  <section class="steps">
+    <h2>How it works</h2>
+    <ol>
+      <li><h3>Record</h3><p>Tap the big button and talk. Your words appear live as you speak.</p></li>
+      <li><h3>Clean</h3><p>Fillers go, sentences get capitals and full stops, and pauses become paragraphs.</p></li>
+      <li><h3>Read</h3><p>Your entry lands on a dated notebook page. Copy it, flip to the raw version, or revisit it later.</p></li>
+    </ol>
+  </section>
+
+  <section class="closing">
+    <h2>Your first entry takes a minute.</h2>
+    <a class="cta" href="journal.html">Start journaling</a>
+  </section>
+
+  <footer class="site">Built with the Web Speech API. Works best in Chrome or Edge.</footer>
+</div>
+</body>
+</html>
